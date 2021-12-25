@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("https://images.unsplash.com/photo-1585219453989-79562fe2c856?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMzY0MTg2OQ&ixlib=rb-1.2.1&q=85");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 25px;
+  }
+  
+  .gabby {
+    font-size: 25px;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4f33af, 0 0 40px #4f33af, 0 0 50px #4f33af, 0 0 60px #4f33af, 0 0 70px #4f33af;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #3c3197, 0 0 40px #3c3197, 0 0 50px #3c3197, 0 0 60px #3c3197, 0 0 70px #3c3197, 0 0 80px #3c3197;
+    }
+  }
+  
+  img {
+    border-radius: 50px;
+    height: 300px;
+  }
+  
+  .subtitle {
+    font-family: 'Cormorant', serif;
+    font-size: 26px;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4f33af, 0 0 40px #4f33af, 0 0 50px #4f33af, 0 0 60px #4f33af, 0 0 70px #4f33af;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #3c3197, 0 0 40px #3c3197, 0 0 50px #3c3197, 0 0 60px #3c3197, 0 0 70px #3c3197, 0 0 80px #3c3197;
+    }
+  }
+  
+  button {
+    background-image:  linear-gradient(
+  92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 4rem;
+    text-align: center;
+    padding: 20px;
+    text-shadow: rgb(0 0 0 / 25%) 0 3px 8px;
+    transition: 0.4s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    font-size: 27px;
+    background-image: linear-gradient(
+  144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  }
+  
+  i {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    margin:30px 5px;
+  }
+  
+  i:hover {
+    font-size: 78px;
+  }
